@@ -56,6 +56,8 @@ Power capacity is crucial.
 
 Size of the kitchen matters,his multifunctional appliance comes in everything.
 
+
+
 LOW LEVEL REQUIREMENTS:
 
 Should check the certain things has certain levels .
