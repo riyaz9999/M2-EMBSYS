@@ -34,5 +34,62 @@
 * Decrease the percentage of accidents and brings awareness.
 
 # WEEKNESS:
+* An internal electrical fault may occurs.
+* Transmission problems.
+* Monitaring may be incomplete.
+* Limited speed range operations.
+
+# OPPORTUNITIES:
+* Prevents vehicle to go for over speed.
+* Technology gets matured enough and comes to excistance.
+* Control of theoritical research may provide more efficient terms and advantages.
+
+# THREATS:
+* Delay in adaptation.
+* Cost management.
+* Inattention and poor mapping.
+* Variance happens and production of older motors gets decreased.
+
+# HIGH LEVEL AND LOW LEVEL REQUIREMENTS:
+
+# HIGH LEVEL REQUIREMENTS.
+* RF Module Transmitter.
+* Atmega  Microcontroller.
+* RF receiver ,DC motor.
+* Motor driver IC.
+* 9V Battery.
+* Transformer,Rectifier,Regulator.
+
+# LOW LEVEL REQUIREMENTS.
+* Diode.
+* Antenna.
+* Switch.
+* Decoder and encoder.
+
+# APPLICATIONS:
+
+* Alert the nearby police department or the caretaker.
+* These can be used in all the types of motor vehicles like bus,lorry,motor bikes and all the cars.
+* They can more generally be used to limit the rotational speed of the internal combustion engine or protect the engine from     damage due to excessive rotational speed.
+* The governor is a device which is used to controlling the speed of an engine based on the load requirements. Basic governors sense speed and sometimes load of a prime mover and adjust the energy source to maintain the desired level.
+* It helps in safe guarding the passengers and also doesnt allow the vehicle to cross the high speed level.
+
+# ADVANTAGES:
+
+* To avoid accidents.
+* To maintain maileage.
+* Improved fuel efficieny.
+* Reduced emissions.
+
+# DIS ADVANTAGES:
+
+* Unintended safety consequences.
+* Incresed congestion.
+* Loss of profit for small owning operators.
+* There are also concerns that speed-limiting technology might lead to added congestion, and the introduction of black-box style data recorders represents a loss of civil liberties.
+
+
+
+
   
   
