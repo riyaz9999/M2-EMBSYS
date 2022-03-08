@@ -109,20 +109,37 @@ int main(void)
 		
 		x=adc_read(0);
 		
-		OCR0=(adc_read(0));		
+		OCR0=(adc_read(0));
+		
 		lcd_display_int(x/10);
+		
 		LCD_String("Km/hr");
+		
 		_delay_ms(500);
+		
 		LCD_Clear();
+		
 		lcd_gotoxy(1,1);
+		
 		y=x/10;
+		
 		if(y>60)
+		
 		{
+		
 			LCD_String("Speed > 60");
+			
 			lcd_gotoxy(1,2);
+			
 			LCD_String("Reduce Speed");
+			
 			_delay_ms(2000);
-		}			
+			
+		}
+		
 		LCD_Clear();
+		
     }
+    
 }
+
