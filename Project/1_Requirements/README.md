@@ -86,7 +86,7 @@
 * Unintended safety consequences.
 * Incresed congestion.
 * Loss of profit for small owning operators.
-* There are also concerns that speed-limiting technology might lead to added congestion, and the introduction of black-box style data recorders represents a loss of civil liberties.
+* There are also concerns that speed-limiting technology might lead to added congestion, and the introduction of black-box style data recorders represents a loss of civil liberties
 
 
 
