@@ -65,7 +65,7 @@ PROTEUS
 AVR loader
 USB ASP driver
 
-## 5 w's and 1H:
+# 5 w's and 1H:
 * WHO:
   Almost every person can have an access to use these speed controllers in their own vehicles ,This is mainly used by the police department to check the limitations of the speed of a particular vehicle and this note downs the reading and automatically detects the speed and sends a warn alarm.Although most vehicles come with a built-in speed limiter, you will need to remove it if you want to replace it with an aftermarket device that further reduces speed.
 
@@ -83,3 +83,65 @@ USB ASP driver
 
 * HOW:
   Put simply, sensors in your car detect how fast you are going, then this information is communicated to the engine’s computer. When the pre-determined speed is met, the computer restricts the flow of fuel and air to the engine. Therefore, as a driver, you will not be able to exceed the pre-determined top speed. However, all speed limiters can be overridden. If there is a need to speed up quickly, pushing down hard on the accelerator will work. Further, it should be made clear that this system does not affect the car’s braking system.
+
+  # SWOT ANALYSIS
+
+# STRENGTHS:
+* Reduced travel time and Time efficient.
+* Equitable allocation of road space policy can be implemented.
+* Smooth flow of traffic.
+* Decrease the percentage of accidents and brings awareness.
+
+# WEEKNESS:
+* An internal electrical fault may occurs.
+* Transmission problems.
+* Monitaring may be incomplete.
+* Limited speed range operations.
+
+# OPPORTUNITIES:
+* Prevents vehicle to go for over speed.
+* Technology gets matured enough and comes to excistance.
+* Control of theoritical research may provide more efficient terms and advantages.
+
+# THREATS:
+* Delay in adaptation.
+* Cost management.
+* Inattention and poor mapping.
+* Variance happens and production of older motors gets decreased.
+
+# IMPLEMENTATION:
+
+This process continues till the sensor on vehicle is in affinity of sheet. But as the vehicle crosses the sheet the intensity of light on LDR increasys hence resistance of LDR decreases hence LDR will not be able to send signals of adequate strength to controller. So the controller stops counting.The microcontroller has a default value of count pre-define on it with the help of programming. Now as soon as microcontroller stops counting it start its another function i.e comparing the practical count to default count. When controller start comparing the practical count to default count, there exist two
+conditions:
+Condition 1- default count <practical count
+Then the speed of vehicle is more.
+Condition 2-default count > practical count
+Then the speed of vehicle is normal.In condition 1, since the speed of vehicle is more than anticipated, speed of vehicle need to be lowered down.In order to control the speed of vehicle, the controller signify either by continuous beep or any other mean to driver, if driver doesn't respond then controller take over the control from driver and it automatically neutralizes the speed of vehicle with the help of PWM in atmega16 AVR controller. After some duration of time controller automatically resets.
+In condition 2, since the speed of vehicle is normal so there is no need to control the speed by controller. We need to install two or more than two sheets if the accident prone area are in quick succession in order to prevent the further loss by accidents. In this model we can add Ultra sonic sensors in front of car in order to prevent collision of vehicles and control its speed due to brakers or any other obstacles.
+
+# APPLICATIONS:
+
+* Alert the nearby police department or the caretaker.
+* These can be used in all the types of motor vehicles like bus,lorry,motor bikes and all the cars.
+* They can more generally be used to limit the rotational speed of the internal combustion engine or protect the engine from     damage due to excessive rotational speed.
+* The governor is a device which is used to controlling the speed of an engine based on the load requirements. Basic governors sense speed and sometimes load of a prime mover and adjust the energy source to maintain the desired level.
+* It helps in safe guarding the passengers and also doesnt allow the vehicle to cross the high speed level.
+
+# ADVANTAGES:
+
+* To avoid accidents.
+* To maintain maileage.
+* Improved fuel efficieny.
+* Reduced emissions.
+
+# DIS ADVANTAGES:
+
+* Unintended safety consequences.
+* Incresed congestion.
+* Loss of profit for small owning operators.
+* There are also concerns that speed-limiting technology might lead to added congestion, and the introduction of black-box style data recorders represents a loss of civil liberties.
+
+# CONCLUSION:
+
+Usually people drive very harshly in heavy traffic prone areas as they are in a hurry. but in that hurriedness they often end in loosing either their life or someone other life on road. Our project is based on "Automatic Vehicle Speed Control System", so it has a great significance in termination and reduction of overall accidents and casualties in high traffic prone areas. This project has a system that checks the speed of the vehicle using IR sensors and microcontroller and sends warning signals to driver to lower down the speed if speed is on higher side. Incase driver don't reduce the speed then within seconds our system
+will take over the control and will reduce ate speed of vehicle automatically.Hence this project is a great life saving system in heavy traffic areas.
